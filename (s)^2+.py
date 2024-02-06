@@ -1,0 +1,12 @@
+n=input()
+sum=0
+i=1
+if(i<=n):
+    {
+        while(n%10==0):
+            {
+                s=n**2
+                sum=sum+s
+            }
+            print(sum)
+    }
